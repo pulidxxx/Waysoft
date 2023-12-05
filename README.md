@@ -17,14 +17,18 @@ con el cliente que tiene limites de cantidad y de presupuesto
 - Despues de ejecutar Github desktop, clonar el repositorio del link https://github.com/pulidxxx/Pagina-de-compra-de-camisa
 - Abrirlo en Visual Studio Code
 - Crear una terminal y escribir el comando "npm i"
-- Crear una nueva terminal (sin cerrar la anterior) y escribir el comando "npm i"
-- Luego tomar el archivo que se llama "config.js" y cambiarle las credenciales para conectar la base de datos
+- Crear una nueva terminal (sin cerrar la anterior), escribir el comando "cd frontend" y escribir el comando "npm i"
 - Luego abrir pgAdmin crear una base de datos llamada "PaginaDeCamisasBD"
 - Darle click derecho a la Base de datos > Restore, y seleccionar el archivo llamado "backup.sql" que esta ubicado dentro de la carpeta "database"
-- Ahora escribir "npm run dev" en cada una de las terminales
+- Luego abrir el archivo que se llama "config.js" dentro de la carpeta "src" y cambiarle las credenciales para conectar la base de datos
+- Guardar los cambios 
+- Escribir "npm run dev" en cada una de las terminales
 
 ### Pasos para correr las pruebas
 
 - Para correr las pruebas, es necesrio haber corrido el proyecto dem manera exitosa, luego hay que entrar en la terminal en la que se corre el frontend
 - Se detiene esa terminal puede ser con "ctrl + c"
 - Se escribe el comando "npm test"
+- Deberia correr exitosamente
+- En caso de mostrar error en dos pruebas dirigirse a frontend > src > Testing, abrir Registro.test.jsx y guardar el archivo, puede ser con "ctrl + s"
+- Esto ejecutara las pruebas de nuevo y deberian sali correctas
