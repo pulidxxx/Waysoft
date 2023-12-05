@@ -1,26 +1,27 @@
-# Generador de sistema de critica y evaluacion de contenido usando MDA
+# Pagina de compra de camisas y publicacion de estampados por parte de artistas
 
-En esta página se encontrará un generador de aplicaciones web generados a patir de un modelo relacional
+En esta aplicacion se encontrar una pagina que se encarga de vender camisas, conectando el artista que publica los estampados
+con el cliente que tiene limites de cantidad y de presupuesto
 
 ## Aplicaciones necesarias para el despliegue:
 
-- Visual Studio Comunity 2022
-- SQL Server 2022
+- npm version 9.8.1
+- node version 18.18.2
+- PostgrSQL version 16.0
+- Github desktop (opcional)
 
 ## Instrucciones para el despliegue:
 
-### Pasos para importar el modelo relacional que generara la base de datos de la aplicacion:
+### Pasos para importar el proyecto
 
-- Importar el repositorio de github del link: https://github.com/pulidxxx/Modelo-relacional-base-de-datos.git
-- Abrir la solucion en visual studio
-- Abrir el archivo modeloBD.edmx
-- Fuera de las entiddades dar click derecho
-- Genererar base de datos desde modelo > anterior > Nueva conexion
-- En el nombre del servidor poner el nombre que sale en Microsoft SQL Server Management en la parte superior izquierda en mi caso
-  "PULIDXXX\SQLEXPRESS"
-- Escribir el nombre de la base de datos
-- Dar click en Aceptar > Siguiente
-- Si se siguieron los pasos deberia aparecer la base de datos en el management de sql server
+- Despues de ejecutar Github desktop, clonar el repositorio del link https://github.com/pulidxxx/Pagina-de-compra-de-camisa
+- Abrirlo en Visual Studio Code
+- Crear una terminal y escribir el comando "npm i"
+- Crear una nueva terminal (sin cerrar la anterior) y escribir el comando "npm i"
+- Luego tomar el archivo que se llama "config.js" ingresarlo en la carpeta llamada "src"
+- Luego abrir pgAdmin crear una base de datos llamada "PaginaDeCamisasBD"
+- Darle click derecho a la Base de datos > Restore, y seleccionar el archivo llamado "backup.sql" que esta ubicado dentro de la carpeta "database"
+-
 
 ### Pasos generar una aplicacion :
 
