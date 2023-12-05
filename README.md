@@ -9,15 +9,16 @@ con el cliente que tiene limites de cantidad y de presupuesto
 - node version 18.18.2
 - PostgrSQL version 16.0
 - Github desktop (opcional)
+- Visual Studio Code (opcional) 
 
 ## Instrucciones para el despliegue:
 
-### Pasos para importar el proyecto
+### Pasos para importar y ejecutar el proyecto
 
 - Despues de ejecutar Github desktop, clonar el repositorio del link https://github.com/pulidxxx/Pagina-de-compra-de-camisas , o usar el que esta en la carpeta con este README
 - Abrirlo en Visual Studio Code
 - Crear una terminal y escribir el comando "npm i"
-- Crear una nueva terminal (sin cerrar la anterior), escribir el comando "cd frontend" y escribir el comando "npm i"
+- Crear una nueva terminal (sin cerrar la anterior), escribir el comando "cd frontend", luego escribir el comando "npm i"
 - Luego abrir pgAdmin crear una base de datos llamada "PaginaDeCamisasBD"
 - Darle click derecho a la Base de datos > Restore, y seleccionar el archivo llamado "backup.sql" que esta ubicado dentro de la carpeta "database"
 - Luego abrir el archivo que se llama "config.js" dentro de la carpeta "src" y cambiarle las credenciales para conectar la base de datos
