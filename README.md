@@ -14,7 +14,7 @@ con el cliente que tiene limites de cantidad y de presupuesto
 
 ### Pasos para importar el proyecto
 
-- Despues de ejecutar Github desktop, clonar el repositorio del link https://github.com/pulidxxx/Pagina-de-compra-de-camisa , o usar el que esta en la carpeta con este README
+- Despues de ejecutar Github desktop, clonar el repositorio del link https://github.com/pulidxxx/Pagina-de-compra-de-camisas , o usar el que esta en la carpeta con este README
 - Abrirlo en Visual Studio Code
 - Crear una terminal y escribir el comando "npm i"
 - Crear una nueva terminal (sin cerrar la anterior), escribir el comando "cd frontend" y escribir el comando "npm i"
